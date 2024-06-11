@@ -1,0 +1,22 @@
+.expe-title{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,1,83,255);
+    height: 70px;
+
+}
+.project-img{
+    height: 400px;
+}
+
+.expe-cards{
+  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.location-img{
+    max-height: 15px;
+}

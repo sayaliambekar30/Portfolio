@@ -1,0 +1,37 @@
+body, h1, h2, h3, h4, h5, h6, p, span, div {
+    color: white;
+}
+
+.home-container {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+     background-image: url('../../../../assets/images/4305157.jpg');   
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.short-desc{
+    font-size: 35px;
+}
+
+.profile-image{
+ max-height: 300px;
+border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding-top: 80px;
+        height: max-content;
+        margin-top: 160px;
+    }
+}
